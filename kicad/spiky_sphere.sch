@@ -38,7 +38,7 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 8
 Title "Fixation Target System"
-Date "5 feb 2014"
+Date "6 feb 2014"
 Rev "V 1.0"
 Comp "Rice University"
 Comment1 "Adam Samaniego"
@@ -331,4 +331,57 @@ Wire Notes Line
 	4900 5100 5200 5100
 Wire Notes Line
 	4900 5600 5200 5600
+$Comp
+L CONN_3 K8
+U 1 1 52F3DE49
+P 7250 5650
+F 0 "K8" V 7200 5650 50  0000 C CNN
+F 1 "CONN_3" V 7300 5650 40  0000 C CNN
+F 2 "~" H 7250 5650 60  0000 C CNN
+F 3 "~" H 7250 5650 60  0000 C CNN
+	1    7250 5650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 5650 7600 6550
+Wire Wire Line
+	7600 6550 8050 6550
+Connection ~ 7600 5750
+Wire Wire Line
+	7600 5550 7950 5550
+Wire Wire Line
+	7850 5550 8050 5550
+Connection ~ 7850 5550
+Connection ~ 7850 6550
+Text HLabel 8050 5550 2    60   UnSpc ~ 0
+V_IN
+Text HLabel 8050 6550 2    60   UnSpc ~ 0
+GND
+$Comp
+L XP-E2_LED D22
+U 1 1 52F3E073
+P 7850 5750
+F 0 "D22" H 7850 5850 50  0000 C CNN
+F 1 "XP-E2_LED" H 7850 5650 50  0001 C CNN
+F 2 "~" H 7850 5750 60  0000 C CNN
+F 3 "~" H 7850 5750 60  0000 C CNN
+	1    7850 5750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7850 5950 7850 6550
+Wire Wire Line
+	7900 5800 7900 5950
+Wire Wire Line
+	7900 5950 7850 5950
+Wire Notes Line
+	7100 5450 8350 5450
+Wire Notes Line
+	8350 5450 8350 6600
+Wire Notes Line
+	8350 6600 7100 6600
+Wire Notes Line
+	7100 6600 7100 5450
+Text Notes 7100 5450 0    60   ~ 0
+Board for illumination LED
 $EndSCHEMATC

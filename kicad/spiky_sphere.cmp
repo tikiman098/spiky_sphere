@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2/5/2014 2:08:48 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2/6/2014 1:01:35 PM
 
 BeginCmp
 TimeStamp = /52F1AAB5/52F1A5B4;
@@ -148,6 +148,13 @@ IdModule  = LED_0402;
 EndCmp
 
 BeginCmp
+TimeStamp = /52F3E073;
+Reference = D22;
+ValeurCmp = XP-E2_LED;
+IdModule  = LED_LUW_CN5M;
+EndCmp
+
+BeginCmp
 TimeStamp = /52F19AD5;
 Reference = JP1;
 ValeurCmp = JUMPER;
@@ -227,6 +234,13 @@ EndCmp
 BeginCmp
 TimeStamp = /52F1D485/52F1A5A5;
 Reference = K7;
+ValeurCmp = CONN_3;
+IdModule  = CONN_3X1_MALE_SMT;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F3DE49;
+Reference = K8;
 ValeurCmp = CONN_3;
 IdModule  = CONN_3X1_MALE_SMT;
 EndCmp
