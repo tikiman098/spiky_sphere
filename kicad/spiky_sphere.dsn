@@ -1,0 +1,330 @@
+(pcb "C:\Users\admin\Documents\aps1\PRJ_Retinal Imager\fixation_apparatus\spiky_sphere\kicad\spiky_sphere.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(2013-07-07 BZR 4022)-stable")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  190500 -35560  190500 -137160  292100 -137160  292100 -35560
+            190500 -35560)
+    )
+    (via "Via[0-1]_1016:635_um" "Via[0-1]_1016:0_um")
+    (rule
+      (width 254)
+      (clearance 254.1)
+      (clearance 254.1 (type default_smd))
+      (clearance 63.5 (type smd_smd))
+    )
+  )
+  (placement
+    (component r_0805
+      (place R4 241300 -42418 front 270 (PN 60))
+      (place R3 227330 -42418 front 270 (PN 60))
+      (place R5 255270 -42418 front 270 (PN 60))
+      (place R7 283210 -42418 front 270 (PN 60))
+      (place R2 213360 -42418 front 270 (PN 60))
+      (place R6 269240 -42418 front 270 (PN 60))
+      (place R1 199390 -42418 front 270 (PN 60))
+    )
+    (component LED_MTX_5X7
+      (place U1 195834 -67818 front 0 (PN LED_MTX_5X7))
+    )
+    (component LED_0805
+      (place D19 283210 -45720 front 0 (PN LED_0805))
+      (place D16 269240 -45720 front 0 (PN LED_0805))
+      (place D7 227330 -45720 front 0 (PN LED_0805))
+      (place D10 241300 -45720 front 0 (PN LED_0805))
+      (place D4 213360 -45720 front 0 (PN LED_0805))
+      (place D1 199390 -45720 front 0 (PN LED_0805))
+      (place D13 255270 -45720 front 0 (PN LED_0805))
+    )
+    (component LED_0603
+      (place D11 241300 -45720 front 0 (PN LED_0603))
+      (place D5 213360 -45720 front 0 (PN LED_0603))
+      (place D14 255270 -45720 front 0 (PN LED_0603))
+      (place D8 227330 -45720 front 0 (PN LED_0603))
+      (place D17 269240 -45720 front 0 (PN LED_0603))
+      (place D2 199390 -45720 front 0 (PN LED_0603))
+      (place D20 283210 -45720 front 0 (PN LED_0603))
+      (place JP1 195072 -69596 front 0 (PN JUMPER))
+      (place JP5 209296 -69596 front 0 (PN JUMPER))
+      (place JP4 205740 -69596 front 0 (PN JUMPER))
+      (place JP3 202184 -69596 front 0 (PN JUMPER))
+      (place JP2 198628 -69596 front 0 (PN JUMPER))
+    )
+    (component LED_0402
+      (place D18 269240 -45720 front 0 (PN LED_0402))
+      (place D15 255270 -45720 front 0 (PN LED_0402))
+      (place D21 283210 -45720 front 0 (PN LED_0402))
+      (place D12 241300 -45720 front 0 (PN LED_0402))
+      (place D9 227330 -45720 front 0 (PN LED_0402))
+      (place D6 213360 -45720 front 0 (PN LED_0402))
+      (place D3 199390 -45720 front 0 (PN LED_0402))
+    )
+    (component CONN_4x2_MALE_RA
+      (place P1 198374 -62738 front 0 (PN CONN_8))
+    )
+    (component CONN_3X1_MALE_SMT
+      (place K5 255270 -47752 front 0 (PN CONN_3))
+      (place K4 241300 -47752 front 0 (PN CONN_3))
+      (place K6 269240 -47498 front 0 (PN CONN_3))
+      (place K3 227330 -47752 front 0 (PN CONN_3))
+      (place K2 213360 -47752 front 0 (PN CONN_3))
+      (place K7 283210 -47752 front 0 (PN CONN_3))
+      (place K1 199390 -47752 front 0 (PN CONN_3))
+    )
+  )
+  (library
+    (image r_0805
+      (outline (path signal 150  1750 -750  1750 -1000))
+      (outline (path signal 150  1750 -1000  1500 -1000))
+      (outline (path signal 150  -1750 750  -1750 1000))
+      (outline (path signal 150  -1750 1000  -1500 1000))
+      (outline (path signal 150  1500 1000  1750 1000))
+      (outline (path signal 150  1750 1000  1750 750))
+      (outline (path signal 150  -1750 -750  -1750 -1000))
+      (outline (path signal 150  -1750 -1000  -1500 -1000))
+      (pin Rect[T]Pad_1300.48x1498.6_um 1 952.5 0)
+      (pin Rect[T]Pad_1300.48x1498.6_um 2 -952.5 0)
+    )
+    (image LED_MTX_5X7
+      (outline (path signal 150  -2514.6 10134.6  15214.6 10134.6))
+      (outline (path signal 150  15214.6 10134.6  15214.6 -2514.6))
+      (outline (path signal 150  15214.6 -2514.6  -2514.6 -2514.6))
+      (outline (path signal 150  -2514.6 -2514.6  -2514.6 10134.6))
+      (pin Rect[A]Pad_1397x1397_um 1 0 0)
+      (pin Round[A]Pad_1397_um 2 2540 0)
+      (pin Round[A]Pad_1397_um 3 5080 0)
+      (pin Round[A]Pad_1397_um 4 7620 0)
+      (pin Round[A]Pad_1397_um 5 10160 0)
+      (pin Round[A]Pad_1397_um 6 12700 0)
+      (pin Round[A]Pad_1397_um 7 12700 7620)
+      (pin Round[A]Pad_1397_um 8 10160 7620)
+      (pin Round[A]Pad_1397_um 9 7620 7620)
+      (pin Round[A]Pad_1397_um 10 5080 7620)
+      (pin Round[A]Pad_1397_um 11 2540 7620)
+      (pin Round[A]Pad_1397_um 12 0 7620)
+    )
+    (image LED_0805
+      (pin Rect[T]Pad_1100x1400_um 1 -875 0)
+      (pin Rect[T]Pad_1100x1400_um 2 875 0)
+    )
+    (image LED_0603
+      (pin Rect[T]Pad_950x950_um 1 -725 0)
+      (pin Rect[T]Pad_950x950_um 2 725 0)
+    )
+    (image LED_0402
+      (pin Rect[T]Pad_600x550_um 1 -425 0)
+      (pin Rect[T]Pad_600x550_um 2 425 0)
+    )
+    (image CONN_4x2_MALE_RA
+      (outline (path signal 150  7620 4064  7620 9906))
+      (outline (path signal 150  5080 4064  5080 9906))
+      (outline (path signal 150  2540 4064  2540 9906))
+      (outline (path signal 150  0 4064  0 9906))
+      (outline (path signal 150  -1270 4064  8890 4064))
+      (outline (path signal 150  8890 4064  8890 1524))
+      (outline (path signal 150  -1270 1524  8890 1524))
+      (outline (path signal 150  -1270 4064  -1270 1524))
+      (pin Rect[A]Pad_1397x1397_um 1 0 0)
+      (pin Round[A]Pad_1397_um 2 2540 0)
+      (pin Round[A]Pad_1397_um 3 5080 0)
+      (pin Round[A]Pad_1397_um 4 7620 0)
+      (pin Round[A]Pad_1397_um 5 7620 -2540)
+      (pin Round[A]Pad_1397_um 6 5080 -2540)
+      (pin Round[A]Pad_1397_um 7 2540 -2540)
+      (pin Round[A]Pad_1397_um 8 0 -2540)
+    )
+    (image CONN_3X1_MALE_SMT
+      (outline (path signal 150  -3556 3810  -3556 4572))
+      (outline (path signal 150  -3556 4572  -1524 4572))
+      (outline (path signal 150  -1524 4572  -1524 3810))
+      (outline (path signal 150  -3962.4 1270  3962.4 1270))
+      (outline (path signal 150  3962.4 1270  3962.4 -1270))
+      (outline (path signal 150  -3962.4 -1270  3962.4 -1270))
+      (outline (path signal 150  -3962.4 1270  -3962.4 -1270))
+      (pin Rect[T]Pad_990.6x4064_um 1 -2540 2032)
+      (pin Rect[T]Pad_990.6x4064_um 2 0 -2032)
+      (pin Rect[T]Pad_990.6x4064_um 3 2540 2032)
+    )
+    (padstack Round[A]Pad_1397_um
+      (shape (circle F.Cu 1397))
+      (shape (circle B.Cu 1397))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_600x550_um
+      (shape (rect F.Cu -300 -275 300 275))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_950x950_um
+      (shape (rect F.Cu -475 -475 475 475))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_990.6x4064_um
+      (shape (rect F.Cu -495.3 -2032 495.3 2032))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1100x1400_um
+      (shape (rect F.Cu -550 -700 550 700))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1300.48x1498.6_um
+      (shape (rect F.Cu -650.24 -749.3 650.24 749.3))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1397x1397_um
+      (shape (rect F.Cu -698.5 -698.5 698.5 698.5))
+      (shape (rect B.Cu -698.5 -698.5 698.5 698.5))
+      (attach off)
+    )
+    (padstack "Via[0-1]_1016:635_um"
+      (shape (circle F.Cu 1016))
+      (shape (circle B.Cu 1016))
+      (attach off)
+    )
+    (padstack "Via[0-1]_1016:0_um"
+      (shape (circle F.Cu 1016))
+      (shape (circle B.Cu 1016))
+      (attach off)
+    )
+  )
+  (network
+    (net /fixation_target_module_1/GND
+      (pins R1-2 K1-2 K1-3)
+    )
+    (net /fixation_target_module_1/V_IN
+      (pins D1-1 D2-1 D3-1 K1-1)
+    )
+    (net /fixation_target_module_2/GND
+      (pins R2-2 K2-2 K2-3)
+    )
+    (net /fixation_target_module_2/V_IN
+      (pins D4-1 D5-1 D6-1 K2-1)
+    )
+    (net /fixation_target_module_3/GND
+      (pins R3-2 K3-2 K3-3)
+    )
+    (net /fixation_target_module_3/V_IN
+      (pins D7-1 D8-1 D9-1 K3-1)
+    )
+    (net /fixation_target_module_4/GND
+      (pins R4-2 K4-2 K4-3)
+    )
+    (net /fixation_target_module_4/V_IN
+      (pins D10-1 D11-1 D12-1 K4-1)
+    )
+    (net /fixation_target_module_5/GND
+      (pins R5-2 K5-2 K5-3)
+    )
+    (net /fixation_target_module_5/V_IN
+      (pins D13-1 D14-1 D15-1 K5-1)
+    )
+    (net /fixation_target_module_6/GND
+      (pins R6-2 K6-2 K6-3)
+    )
+    (net /fixation_target_module_6/V_IN
+      (pins D16-1 D17-1 D18-1 K6-1)
+    )
+    (net /fixation_target_module_7/GND
+      (pins R7-2 K7-2 K7-3)
+    )
+    (net /fixation_target_module_7/V_IN
+      (pins D19-1 D20-1 D21-1 K7-1)
+    )
+    (net "N-0000010"
+      (pins U1-5 P1-6)
+    )
+    (net "N-0000011"
+      (pins U1-8 P1-5)
+    )
+    (net "N-0000012"
+      (pins U1-3 P1-4)
+    )
+    (net "N-0000013"
+      (pins U1-10 P1-3)
+    )
+    (net "N-0000014"
+      (pins U1-11 P1-2)
+    )
+    (net "N-0000015"
+      (pins P1-8 JP1-1 JP5-1 JP4-1 JP3-1 JP2-1)
+    )
+    (net "N-0000016"
+      (pins U1-9 JP4-2)
+    )
+    (net "N-0000017"
+      (pins U1-4 JP3-2)
+    )
+    (net "N-0000018"
+      (pins U1-1 JP2-2)
+    )
+    (net "N-0000019"
+      (pins U1-7 JP5-2)
+    )
+    (net "N-000002"
+      (pins U1-12 P1-1)
+    )
+    (net "N-0000020"
+      (pins U1-2 JP1-2)
+    )
+    (net "N-0000028"
+      (pins R1-1 D1-2 D2-2 D3-2)
+    )
+    (net "N-0000029"
+      (pins R2-1 D4-2 D5-2 D6-2)
+    )
+    (net "N-0000030"
+      (pins R3-1 D7-2 D8-2 D9-2)
+    )
+    (net "N-0000031"
+      (pins R4-1 D10-2 D11-2 D12-2)
+    )
+    (net "N-0000032"
+      (pins R5-1 D13-2 D14-2 D15-2)
+    )
+    (net "N-0000033"
+      (pins R6-1 D16-2 D17-2 D18-2)
+    )
+    (net "N-0000034"
+      (pins R7-1 D19-2 D20-2 D21-2)
+    )
+    (net "N-000009"
+      (pins U1-6 P1-7)
+    )
+    (class kicad_default "" /fixation_target_module_1/GND /fixation_target_module_1/V_IN
+      /fixation_target_module_2/GND /fixation_target_module_2/V_IN /fixation_target_module_3/GND
+      /fixation_target_module_3/V_IN /fixation_target_module_4/GND /fixation_target_module_4/V_IN
+      /fixation_target_module_5/GND /fixation_target_module_5/V_IN /fixation_target_module_6/GND
+      /fixation_target_module_6/V_IN /fixation_target_module_7/GND /fixation_target_module_7/V_IN
+      "N-0000010" "N-0000011" "N-0000012" "N-0000013" "N-0000014" "N-0000015"
+      "N-0000016" "N-0000017" "N-0000018" "N-0000019" "N-000002" "N-0000020"
+      "N-0000028" "N-0000029" "N-0000030" "N-0000031" "N-0000032" "N-0000033"
+      "N-0000034" "N-000009"
+      (circuit
+        (use_via Via[0-1]_1016:635_um)
+      )
+      (rule
+        (width 254)
+        (clearance 254.1)
+      )
+    )
+  )
+  (wiring
+  )
+)
